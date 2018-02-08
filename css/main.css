@@ -131,7 +131,64 @@ body .navbar {
     margin: 0;
 }
 
+.main-wrapper .container {
+    max-width: 992px;
+}
 
+.main-wrapper {
+    background-color: #fafafa;
+}
+
+.btn-trail {
+    color: #fff;
+    background-color: #f0561b;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 7px 25px;
+}
+
+.left-side-trail {
+    -moz-box-shadow: 3px 3px 5px 1px #e6e6e6;
+    -webkit-box-shadow: 3px 3px 5px 1px #e6e6e6;
+    box-shadow: 3px 3px 5px 1px #e6e6e6;
+    background-color: #ffffff;
+    padding: 45px 25px;
+    border-radius: 4px;
+}
+
+.left-side-trail .trail-pic {
+    max-width: 141px;
+    width: 100%;
+}
+
+.trail-action h3 {
+    margin-top: 0;
+}
+.line {
+                      border-top: 1px solid #ededed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+                  }
+.progresses-container h5{
+margin-bottom: 30px;
+    font-weight: bold;
+}
+.progresses-container span{
+    font-weight: 400;
+}
+
+.progresses-container label {
+    color: #fff;
+    background-color: #f0561b;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 7px 25px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
 
 
 

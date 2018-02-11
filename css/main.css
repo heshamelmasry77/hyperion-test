@@ -1,11 +1,27 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Medium.ttf');
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url('../fonts/Avenir-Medium.ttf');
+}
+
+* {
+    font-family: Avenir, sans-serif;
+
+}
 
 body .navbar {
     background-color: #ffffff;
     margin-bottom: 0;
     border: none;
+    font-family: Avenir, sans-serif;
 }
 
 .navbar-brand img {

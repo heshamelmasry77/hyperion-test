@@ -36,13 +36,9 @@ body .navbar {
     }
 
     .head-line {
-        /*padding-right: 0;*/
+        padding: 0;
     }
 }
-
-/*.navbar-nav {*/
-/*!*margin-right: 15px;*!*/
-/*}*/
 
 .head-line li:nth-child(2) {
     display: block;
@@ -147,12 +143,18 @@ body .navbar {
     margin: 0;
 }
 
-.main-wrapper .container {
-    max-width: 992px;
-}
-
 .main-wrapper {
     background-color: #fafafa;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-wrapper {
+        padding: 10px;
+    }
+}
+
+.main-wrapper .container {
+    max-width: 992px;
 }
 
 .btn-trail {
@@ -175,6 +177,12 @@ body .navbar {
 .left-side-trail .trail-pic {
     max-width: 141px;
     width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .trail-action {
+        padding: 0;
+    }
 }
 
 .trail-action h3 {
@@ -203,6 +211,24 @@ body .navbar {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+    .trail-bootcamp-container .options-container {
+        flex-direction: column;
+    }
+
+    .trail-bootcamp-container .options-container .option:nth-child(1) {
+        margin: 15px 0 15px 0;
+    }
+
+    .trail-bootcamp-container .options-container .option .paragraph-container {
+        flex-basis: 250px;
+    }
+
+    .trail-bootcamp-container .options-container .option .paragraph-container p {
+        padding-right: 15px;
+    }
 }
 
 .trail-bootcamp-container .options-container .option:nth-child(1) {
@@ -340,6 +366,12 @@ body .navbar {
     margin-left: -10px;
 }
 
+@media only screen and (max-width: 768px) {
+    .right-side-your-journey .join-info {
+        padding-left: 15px;
+        margin-left: initial;
+    }
+}
 
 
 

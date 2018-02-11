@@ -163,34 +163,98 @@ body .navbar {
 
 .trail-action h3 {
     margin-top: 0;
+    color: #454545;
+
 }
+
 .line {
-                      border-top: 1px solid #ededed;
+    border-top: 1px solid #ededed;
     margin-top: 30px;
     margin-bottom: 30px;
 
-                  }
-.progresses-container h5{
-margin-bottom: 30px;
+}
+
+.progresses-container h5 {
+    margin-bottom: 30px;
     font-weight: bold;
 }
-.progresses-container span{
+
+.progresses-container span {
     font-weight: 400;
 }
 
 .progresses-container label {
+    width: 100%;
+}
+
+.right-side-your-journey {
+    padding-left: 45px;
+    color: #454545;
+
+}
+
+.right-side-your-journey h4 {
+    margin-bottom: 25px;
+}
+
+.right-side-your-journey h4 span {
+    color: #a7a7a7;
+}
+
+.right-side-your-journey .title {
+    padding-top: 0;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.right-side-your-journey .title span {
+    color: #f0561b;
+    font-size: 30px;
+}
+
+.right-side-your-journey .desc h5 {
+    color: #a7a7a7;
+    font-weight: 400;
+}
+
+.right-side-your-journey .desc p {
+    color: #a7a7a7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-orange-custom {
     color: #fff;
     background-color: #f0561b;
     border-radius: 4px;
     font-size: 14px;
     padding: 7px 25px;
-    width: 100%;
     text-align: center;
     font-weight: 400;
     margin-bottom: 12px;
+    border: 1px solid #ffffff;
+
 }
 
+.btn-white-custom {
+    color: #f0561b;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 7px 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 12px;
+    border: 1px solid #f0561b;
+}
 
+.right-side-your-journey .btn-white-custom {
+    border-radius: 6px;
+}
+.right-side-your-journey .join-info {
+    padding-left: 0;
+    margin-left: -10px;
+}
 
 
 

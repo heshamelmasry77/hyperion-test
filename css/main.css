@@ -197,12 +197,12 @@ body .navbar {
 }
 
 .trail-bootcamp-container .options-container .option .img-container {
-    flex-basis: 100px;
+    flex-basis: 90px;
     height: 65px;
 }
 
 .trail-bootcamp-container .options-container .option img {
-    width: 100px;
+    width: 90px;
     height: 100%;
 }
 
@@ -258,6 +258,10 @@ body .navbar {
 
 .right-side-your-journey h4 span {
     color: #a7a7a7;
+    position: relative;
+    top: 4px;
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .right-side-your-journey .title {
